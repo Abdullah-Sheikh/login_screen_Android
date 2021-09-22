@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimary"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:textColor="@color/white"
+        android:text="famous"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:textColor="@color/white"
+       android:layout_height="0dp"
+       android:layout_weight="0.5"
+       android:text="Name"
+       android:gravity="center_vertical"
+       android:textStyle="bold"
+       android:textSize="18dp"
+       android:layout_marginLeft="25dp"
+       android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:textSize="20dp"
+        android:hint="Enter name"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/password_edittxt"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:textSize="20dp"
+        android:hint="Enter password"
+        app:passwordToggleTint="@color/white"
+        android:inputType="textPassword"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="0.75"
+        android:background="?colorPrimaryVariant"
+        android:gravity="center"
+        android:shadowColor="@color/white"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textColor="#F1EDED" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Create account."
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.75"/>
+
+
+</LinearLayout>
